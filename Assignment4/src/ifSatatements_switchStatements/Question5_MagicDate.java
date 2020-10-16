@@ -3,6 +3,8 @@ package ifSatatements_switchStatements;
 import java.util.Scanner;
 
 public class Question5_MagicDate {
+	
+public static void main(String[] args) {
 	/*
 	The date June 10, 1960, is special because when we write it in the following format, the month times the day equals the year:  6/10/60
 	Write a Java program that lets the user declare a month (in numeric form), a day, and a two-digit year. 
@@ -10,7 +12,6 @@ public class Question5_MagicDate {
 	Otherwise, it should display a message saying the date is not magic.
 	*/
 
-	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Enter any date to determine it is Magic date or Not :))");
