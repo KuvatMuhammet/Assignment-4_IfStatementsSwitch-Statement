@@ -5,6 +5,16 @@ import java.util.Scanner;
 public class Question8_SoftwarePackage {
 
 	public static void main(String[] args) {
+		/*
+		A software company sells a package that retails for $99. Quantity discounts are given according to the following table:
+		Quantity	Discount
+		10-19		20%
+		20-49		30%
+		50-99		40%
+		100 or more	50%
+		Write a program that lets the user declare the number of packages purchased. The program should then display the amount of 
+		discounts(if any) and the total amount of the purchase after discount.		
+		*/
 		
 		Scanner scan = new Scanner(System.in);
 		
