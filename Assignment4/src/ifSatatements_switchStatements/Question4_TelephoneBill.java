@@ -3,6 +3,14 @@ package ifSatatements_switchStatements;
 import java.util.Scanner;
 
 public class Question4_TelephoneBill {
+		/*
+			Telephone Bill
+			Write a Java program to calculate the monthly telephone bills as per the following rule: 
+			Minimum $200 for up to 100 calls. 
+			Plus $0.60 per call for the next 50 calls. 
+			Plus $0.50 per call for the next 50 calls. 
+			Plus $0.40 per call for any call beyond 200 calls.
+		*/
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
